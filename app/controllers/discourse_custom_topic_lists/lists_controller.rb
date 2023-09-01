@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-module ::MyPluginModule
-  class ExamplesController < ::ApplicationController
+module ::DiscourseCustomTopicLists
+  class ListsController < ::ApplicationController
     requires_plugin PLUGIN_NAME
 
-    def index
+    def show
       render json: { hello: "world" }
     end
   end

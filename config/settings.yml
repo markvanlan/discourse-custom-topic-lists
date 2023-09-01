@@ -1,4 +1,4 @@
 plugins:
-  plugin_name_enabled:
+  custom_topic_lists_enabled:
     default: false
     client: true
